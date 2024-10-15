@@ -12,8 +12,5 @@ $sommesNotes = array_sum($notes);
 $moyenne = $sommesNotes / $NbNotes;
 
 
-
 echo "Les notes obtenues par l'élève sont : " . implode(" ", $notes) . "\n<br>";
-
-
 echo "Sa moyenne générale est donc de : " . number_format($moyenne, 2) . "\n<br>";

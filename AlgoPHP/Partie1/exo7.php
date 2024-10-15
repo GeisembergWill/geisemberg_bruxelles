@@ -5,6 +5,10 @@
 <h2>Résultat</h2>
 
 <?php
+
+$age = 5; 
+$category = CategorieParAge($age);
+
 function CategorieParAge($age) {
     if ($age >= 6 && $age <= 7) {
         return "Poussin";
@@ -19,7 +23,6 @@ function CategorieParAge($age) {
     }
 }
 
-$age = 5; 
-$category = CategorieParAge($age);
+
 echo "L'enfant qui a $age ans appartient à la catégorie \"$category\".";
 ?>

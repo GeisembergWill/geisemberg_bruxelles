@@ -8,7 +8,8 @@
 
 <?php
 $nbrFrancs = 200;
-$convEuro = $nbrFrancs * 0.1524;
+$taux = 15.24/100;
+$convEuro = $nbrFrancs * $taux;
 
 echo "Montant en francs : $nbrFrancs<br>";
 echo $nbrFrancs." francs ="."".$convEuro."€"."<br>";
