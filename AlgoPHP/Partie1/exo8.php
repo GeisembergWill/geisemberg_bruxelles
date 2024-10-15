@@ -9,7 +9,7 @@
 
 <?php
 
-$nombre = 9; 
+$nombre = 4; 
 afficherTableMultiplication($nombre);
 
 function afficherTableMultiplication($nombre) {
@@ -22,4 +22,4 @@ function afficherTableMultiplication($nombre) {
 
 
 
-?>
+

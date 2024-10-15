@@ -8,23 +8,24 @@
 
 <?php
 
-function ($phrase){
-    // déclarer une variable phrase
-     $phrase = "«engage le jeu que je le gagne»";
+$phrase = "engage le jeu que je le gagne";
     //  enlever les espaces
-    $phrase = str_replace(" ", "", $phrase);
+$phrase = str_replace(" ", "", $phrase);
     // phrase en minuscule
-    strtolower($phrase);
+$phrase = strtolower($phrase);
     // lire la phrase a l'envers
-    $phraseInversé = $strrev($phrase);
+$phraseInverse = strrev($phrase);
     
-}
 
-if  ($phrase == $phraseInversé) 
-// comparé la phrase avec celle inversé si elle est égale
-   echo est Palindrome ;
-else 
+// var_dump($phrase);
+
+// var_dump($phraseInverse);
+
+
+if ($phrase == $phraseInverse){
+// comparé la phrase avec celle inversé si elle est égale:elle est palindrome
+echo "La phrase « $phrase » est Palindrome";
+}else {
 // sinon elle n'est pas palindrome 
-    echo est pas Palindrome      
- else { echo "est pas Palindrome";
-};
+echo "La phrase « $phrase » est pas Palindrome";
+ }     

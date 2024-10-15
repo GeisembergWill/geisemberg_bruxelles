@@ -6,7 +6,7 @@
 
 <?php
 
-$age = 5; 
+$age = 8; 
 $category = CategorieParAge($age);
 
 function CategorieParAge($age) {
