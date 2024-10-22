@@ -19,7 +19,6 @@ echo afficherInput($nomsInput);
 
 
 
-// $resultat .= "<label>". $info.": <br></label><input type=text><br>";
-//    }
+
 
 

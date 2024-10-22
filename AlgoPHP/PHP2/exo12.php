@@ -6,7 +6,10 @@
 <?php
 
 $tableauDeValeurs = ["true","texte","10","25.369",["valeur1","valeur2"]];
-$variable = var_dump($tableauDeValeurs); 
 
+foreach ($tableauDeValeurs as $valeur){
 
-echo $variable;
+ var_dump($valeur);
+// var_dump() affiche les informations structurées d'une variable, y compris son type et sa valeur.
+
+}

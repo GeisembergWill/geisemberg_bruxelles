@@ -11,7 +11,7 @@ function genererCheckbox($elements) {
     
     foreach ($elements as $key => $value) {
         echo '<input type="Checkbox" name="' . htmlspecialchars($key) . '" value="1"';
-        // Si la valeur est vraie (true), on coche la case
+        // Si la valeur est vraie (true), on coche la case htmlspecialchars convertit les caracteres speciaux en entite HTML.
         if ($value) {
             echo ' checked'; 
         // Ajout de 'checked'

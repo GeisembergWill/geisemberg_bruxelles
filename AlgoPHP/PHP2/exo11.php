@@ -17,3 +17,4 @@ function formaterDateFr ($date, $format)
 echo formaterDateFr ("23 February 2018",'l j F Y');
 
 
+// Remplace toutes les occurrences dans une chaîne
