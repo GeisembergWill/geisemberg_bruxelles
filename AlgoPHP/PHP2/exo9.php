@@ -24,7 +24,7 @@ function genererCheckbox($elements) {
     }
 }
 
-genererCheckbox($elements); // Appel de la fonction avec le tableau d'options
+genererCheckbox($elements); // Appel de la fonction avec le tableau d'options.
 ?>
 
 
