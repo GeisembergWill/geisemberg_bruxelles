@@ -1,0 +1,11 @@
+.fa-solid {
+position: relative;
+right: 23px;
+bottom: 10px;
+cursor: pointer;
+color: grey;
+}
+
+.fa-solid:hover{
+    color: red;
+}
